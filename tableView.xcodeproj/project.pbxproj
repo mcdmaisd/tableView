@@ -12,7 +12,11 @@
 		4FE6D1EE2BFFD97100903266 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4FE6D1ED2BFFD97100903266 /* Base */; };
 		4FE6D1F02BFFD97200903266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE6D1EF2BFFD97200903266 /* Assets.xcassets */; };
 		4FE6D1F32BFFD97200903266 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4FE6D1F22BFFD97200903266 /* Base */; };
-		4FE6D1FB2BFFE86B00903266 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE6D1FA2BFFE86B00903266 /* TableViewController.swift */; };
+		4FE6D1FB2BFFE86B00903266 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE6D1FA2BFFE86B00903266 /* OptionViewController.swift */; };
+		4FFC069C2C0F0F20004C6FE0 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC069B2C0F0F20004C6FE0 /* Options.swift */; };
+		4FFC069F2C0F10FD004C6FE0 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC069D2C0F10FD004C6FE0 /* SettingTableViewCell.swift */; };
+		4FFC06A02C0F10FD004C6FE0 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC069E2C0F10FD004C6FE0 /* SettingTableViewCell.xib */; };
+		4FFC06A22C0F1756004C6FE0 /* ReuseId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC06A12C0F1756004C6FE0 /* ReuseId.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +27,11 @@
 		4FE6D1EF2BFFD97200903266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FE6D1F22BFFD97200903266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FE6D1F42BFFD97200903266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FE6D1FA2BFFE86B00903266 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4FE6D1FA2BFFE86B00903266 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		4FFC069B2C0F0F20004C6FE0 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		4FFC069D2C0F10FD004C6FE0 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		4FFC069E2C0F10FD004C6FE0 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		4FFC06A12C0F1756004C6FE0 /* ReuseId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseId.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				4FE6D1E62BFFD97100903266 /* AppDelegate.swift */,
 				4FE6D1E82BFFD97100903266 /* SceneDelegate.swift */,
-				4FE6D1FA2BFFE86B00903266 /* TableViewController.swift */,
+				4FE6D1FA2BFFE86B00903266 /* OptionViewController.swift */,
+				4FFC069B2C0F0F20004C6FE0 /* Options.swift */,
+				4FFC069D2C0F10FD004C6FE0 /* SettingTableViewCell.swift */,
+				4FFC06A12C0F1756004C6FE0 /* ReuseId.swift */,
+				4FFC069E2C0F10FD004C6FE0 /* SettingTableViewCell.xib */,
 				4FE6D1EC2BFFD97100903266 /* Main.storyboard */,
 				4FE6D1EF2BFFD97200903266 /* Assets.xcassets */,
 				4FE6D1F12BFFD97200903266 /* LaunchScreen.storyboard */,
@@ -127,6 +139,7 @@
 			files = (
 				4FE6D1F02BFFD97200903266 /* Assets.xcassets in Resources */,
 				4FE6D1F32BFFD97200903266 /* Base in Resources */,
+				4FFC06A02C0F10FD004C6FE0 /* SettingTableViewCell.xib in Resources */,
 				4FE6D1EE2BFFD97100903266 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFC069C2C0F0F20004C6FE0 /* Options.swift in Sources */,
+				4FFC06A22C0F1756004C6FE0 /* ReuseId.swift in Sources */,
+				4FFC069F2C0F10FD004C6FE0 /* SettingTableViewCell.swift in Sources */,
 				4FE6D1E72BFFD97100903266 /* AppDelegate.swift in Sources */,
 				4FE6D1E92BFFD97100903266 /* SceneDelegate.swift in Sources */,
-				4FE6D1FB2BFFE86B00903266 /* TableViewController.swift in Sources */,
+				4FE6D1FB2BFFE86B00903266 /* OptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +329,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -345,7 +361,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
